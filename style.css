@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.login-form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* border: 2px solid salmon; */
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid blueviolet; */
+    width: 40%;
+}
+.login-form input{
+    margin-top: 20px;
+}
